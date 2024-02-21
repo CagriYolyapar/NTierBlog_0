@@ -46,6 +46,7 @@
     <Compile Include="Enums\DenemeEnum3.cs" />
     <Compile Include="Enums\DenemeEnum4.cs" />
     <Compile Include="Enums\DenemEnum2.cs" />
+    <Compile Include="Enums\UserRole.cs" />
     <Compile Include="Models\ArticleTag.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\Author.cs" />
