@@ -68,11 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Project.DAL\Project.DAL.csproj">
-      <Project>{1C5D812D-5695-4728-8046-9C34814BD2D1}</Project>
+      <Project>{1c5d812d-5695-4728-8046-9c34814bd2d1}</Project>
       <Name>Project.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Project.Entities\Project.Entities.csproj">
+      <Project>{053e0013-bf8f-4279-9155-998de20603cb}</Project>
+      <Name>Project.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

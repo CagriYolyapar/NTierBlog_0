@@ -10,5 +10,12 @@ namespace Project.BLL.DesignPatterns.GenericRepository.ConcRepository
 {
     public class ArticleRepository : BaseRepository<Article>
     {
+
+
+
+
+
+
+
     }
 }

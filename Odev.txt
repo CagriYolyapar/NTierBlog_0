@@ -1,2 +1,3 @@
-1- AuthorRepository'e �zel bir ka� makale verisi yaratarak bir author instancelayarak author ekleme sistemi olu?turun.
+﻿1- AuthorRepository'e özel bir kaç makale verisi yaratarak bir author instancelayarak author ekleme sistemi olu?turun.
 2-Ve WinUI'da author CRUD sistemi kurulsun.
+3- Kategoriye özgü bir Create metodu yaratmanızı istiyorum (Yaratıcı bir şekilde)

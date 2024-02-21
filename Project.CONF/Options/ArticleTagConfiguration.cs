@@ -12,6 +12,7 @@ namespace Project.CONF.Options
         public ArticleTagConfiguration()
         {
             ToTable("MakaleEtiketleri");
+
             Ignore(x => x.ID);
             HasKey(x => new
             {

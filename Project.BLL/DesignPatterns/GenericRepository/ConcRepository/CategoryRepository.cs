@@ -10,5 +10,6 @@ namespace Project.BLL.DesignPatterns.GenericRepository.ConcRepository
 {
     public class CategoryRepository : BaseRepository<Category>
     {
+
     }
 }

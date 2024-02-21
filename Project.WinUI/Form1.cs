@@ -1,4 +1,5 @@
-﻿using Project.BLL.DesignPatterns.GenericRepository.EFBaseRepository;
+﻿using Project.BLL.DesignPatterns.GenericRepository.ConcRepository;
+using Project.BLL.DesignPatterns.GenericRepository.EFBaseRepository;
 using Project.Entities.Models;
 using System;
 using System.Collections.Generic;
@@ -14,16 +15,18 @@ namespace Project.WinUI
 {
     public partial class Form1 : Form
     {
+        AuthorRepository _authRep;
         public Form1()
         {
             InitializeComponent();
+            _authRep = new AuthorRepository();
  
         }
 
         
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
