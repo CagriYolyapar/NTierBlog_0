@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Enums\DataStatus.cs" />
     <Compile Include="Enums\DenemeEnum.cs" />
+    <Compile Include="Enums\DenemeEnum4.cs" />
     <Compile Include="Enums\DenemEnum2.cs" />
     <Compile Include="Models\ArticleTag.cs" />
     <Compile Include="Models\Article.cs" />
