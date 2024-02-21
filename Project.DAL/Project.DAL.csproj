@@ -64,10 +64,6 @@
       <Project>{5001e719-81a0-4ebc-88f0-f954f6dcdb83}</Project>
       <Name>Project.CONF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Project.Entities\Project.Entities.csproj">
-      <Project>{053e0013-bf8f-4279-9155-998de20603cb}</Project>
-      <Name>Project.Entities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
